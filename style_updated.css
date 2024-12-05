@@ -1,0 +1,34 @@
+
+/* Improved accessibility styling */
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+}
+
+div[class="nav"] {
+  background-color: #006400; /* Dark green for contrast */
+}
+
+div[class="nav"] a {
+  color: #ffffff; /* White text for contrast */
+}
+
+.show-hide {
+  cursor: pointer;
+  text-align: center;
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+.show-hide:focus {
+  outline: 2px solid yellow;
+}
